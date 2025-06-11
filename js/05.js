@@ -24,3 +24,7 @@ obje.disponible = true
 const {imagen,precio,...obje1}= obje
 
 console.log(obje1)
+
+//este no te permite modificar nada
+
+Object.freeze(obje)
