@@ -20,9 +20,12 @@ console.log(cliente.nombre)
 const {nombre}=obje
 
 
-/*renombrar esto porque cuando declara dos variables con el 
-mismo nombre no se ejecutara*/
+/*renombrar variables nuevas no modifican las originales esto porque cuando declara dos variables con el 
+mismo nombre no se ejecutara, la ppuedes utilizar en api y renombrar*/
 const{nombre:nombre1}=cliente
 
 console.log (nombre)
 console.log(nombre1)
+
+
+
