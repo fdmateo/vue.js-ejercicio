@@ -4,7 +4,7 @@ const tecnologia = ['vue', 'cala', 'hello', 'gala']
 
 
 
-//forEach
+//forEach  
 
 const arrayForEach = tecnologia.forEach(function (tech) {
     return tech
@@ -20,5 +20,5 @@ const arrayMap = tecnologia.map(function (tech) {
 
 })
 
-console.log(arrayForEach)
-console.log(arrayMap)
+//console.log(arrayForEach)
+console.log(arrayMap) 
