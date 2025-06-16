@@ -1,6 +1,5 @@
 //Arrow functions y sus carateristica
-
-
+// y no se pueen utilizar en function declaraction
 
 // function sumar(numero1 = 8, numero2 = 5) {
 
