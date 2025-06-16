@@ -19,7 +19,7 @@ obje.disponible = true
 
 //borra 
 
-// delete obje.disponible
+delete obje.disponible
 
 const {imagen,precio,...obje1}= obje
 

@@ -14,13 +14,21 @@ let resultado = tecnologia.includes('hello')
 //te permite ver el indice del elemento
 resultado = tecnologia.findIndex(tech =>tech=== "hello")
 
-//some 
+//some te duce si es mayor o menos a los numero que tienes en tu arreglo
 
 resultado = numeros.some (numeros => numeros > 20)
 
-//find  busca si tieene ese numero en nel arreglo
+//find  busca si tiene ese numero en el arreglo
 
 resultado = numeros.find(numeros => numeros ===10)
+
+//every
+
+resultado = numeros.every (numeros => numeros < 20)
+
+//reduce 
+
+resultado = numeros.reduce((total, numero) => numero + total, 0)
 
 console.log(resultado)
 

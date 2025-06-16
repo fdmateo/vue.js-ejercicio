@@ -14,6 +14,7 @@ console.log(typeof descuento)
 
 const numero1 = 20.30
 const numero2 =35.14
+
 const numero3 = 45.25
 
 
