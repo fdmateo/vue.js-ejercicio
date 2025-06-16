@@ -7,11 +7,20 @@ const numeros = [50,30,25]
 //si lo encuentra es true y si no es false.
 
 
-// console.log(tecnologia.includes('gala'))
+console.log(tecnologia.includes('gala'))
 
 let resultado = tecnologia.includes('hello')
 
+//te permite ver el indice del elemento
 resultado = tecnologia.findIndex(tech =>tech=== "hello")
+
+//some 
+
+resultado = numeros.some (numeros => numeros > 20)
+
+//find  busca si tieene ese numero en nel arreglo
+
+resultado = numeros.find(numeros => numeros ===10)
 
 console.log(resultado)
 
