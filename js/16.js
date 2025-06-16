@@ -26,9 +26,15 @@ resultado = numeros.find(numeros => numeros ===10)
 
 resultado = numeros.every (numeros => numeros < 20)
 
-//reduce 
+//reduce te retorna un acumulado de la lista del array que tengas en numero te lo suma todo y te da el total
 
-resultado = numeros.reduce((total, numero) => numero + total, 0)
+resultado = numeros.reduce((total, numero) => numero + total, 20)
+
+//filter
+
+resultado = tecnologia.filter (tech => tech === "hello")
+
+
 
 console.log(resultado)
 
